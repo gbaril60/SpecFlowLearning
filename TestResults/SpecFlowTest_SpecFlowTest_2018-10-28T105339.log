@@ -1,0 +1,83 @@
+﻿2018-10-28T10:53:39.2301789-04:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-10-28T10:53:39.2361797-04:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-10-28T10:53:39.2361797-04:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\gbari\source\repos\SpecFlowTest\SpecFlowTest\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-28T10:53:39.3831768-04:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-10-28T10:53:39.3831768-04:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\gbari\source\repos\SpecFlowTest\SpecFlowTest\bin\Debug\SpecFlowTest.dll
+2018-10-28T10:53:39.3831768-04:00;VSTestExecutionThread;Info;Profile: SpecFlowTest
+2018-10-28T10:53:53.4548689-04:00;Thread#15;Info;starting test run
+2018-10-28T10:53:53.4618193-04:00;Thread#15;Info;Discovering target: Default
+2018-10-28T10:53:53.4618193-04:00;Thread#15;Info;Discovering tests from assembly: C:\Users\gbari\source\repos\SpecFlowTest\SpecFlowTest\bin\Debug\SpecFlowTest.dll
+Appdomain Disposed
+Test Suite Dump
+#0: SpecFlowTest/SpecFlowTest - 
+#1: Default - 
+#2: SpecFlowTest - 
+#3: Calc - 
+#5: Send Email - 
+#4: Add two numbers - TestAssembly:SpecFlowTest/Feature:Calc/Scenario:Add+two+numbers
+#6: Add a list of numbers, 1 - TestAssembly:SpecFlowTest/Feature:Send+Email/Scenario:Add+a+list+of+numbers%2c+1
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SpecFlowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:done: CalcSteps.GivenIHaveEnteredIntoTheCalculator(50) (0.0s)
+Thread#0:B:And I have also entered 70 into the calculator
+Thread#0:T:done: CalcSteps.GivenIHaveAlsoEnteredIntoTheCalculator(70) (0.0s)
+Thread#0:B:When I press add
+Thread#0:T:done: CalcSteps.WhenIPressAdd() (0.0s)
+Thread#0:B:Then the result should be 120 on the screen
+Thread#0:T:done: CalcSteps.ThenTheResultShouldBeOnTheScreen(120) (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0.5399927 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given I have entered 1 into the calculator
+Thread#0:T:done: CalcSteps.GivenIHaveEnteredIntoTheCalculator(1) (0.0s)
+Thread#0:B:And I have also entered 2 into the calculator
+Thread#0:T:done: CalcSteps.GivenIHaveAlsoEnteredIntoTheCalculator(2) (0.0s)
+Thread#0:B:When I press add
+Thread#0:T:done: CalcSteps.WhenIPressAdd() (0.0s)
+Thread#0:B:Then the result should be 3 on the screen
+Thread#0:T:done: CalcSteps.ThenTheResultShouldBeOnTheScreen(3) (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0.0030001 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2018-10-28T10:53:54.1684157-04:00;Thread#15;Info;test run finished
+2018-10-28T10:53:54.1684157-04:00;Thread#15;Info;publishing test results
+2018-10-28T10:53:54.1963620-04:00;Thread#15;Info;test results published
+2018-10-28T10:53:54.1963620-04:00;Thread#15;Info;generating reports
+2018-10-28T10:53:54.2033082-04:00;Thread#15;Info;creating 1 report(s)
+2018-10-28T10:53:54.2043099-04:00;Thread#15;Info;generate Report ReportTemplate.cshtml
+2018-10-28T10:53:55.0546263-04:00;Thread#15;Info;reports generated
+Total: 2
+Succeeded: 2
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2018-10-28T10:53:55.0586614-04:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2018-10-28T10:53:55.0586614-04:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\gbari\source\repos\SpecFlowTest\TestResults\SpecFlowTest_SpecFlowTest_2018-10-28T105339.html'
+2018-10-28T10:53:55.0689309-04:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\gbari\source\repos\SpecFlowTest\TestResults\SpecFlowTest_SpecFlowTest_2018-10-28T105339.log
